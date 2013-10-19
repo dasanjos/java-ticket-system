@@ -1,0 +1,169 @@
+body {
+	background: white url(top_gradient.png) repeat-x scroll left top;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.357em;
+}
+
+.error {
+	color: #990000;
+}
+
+a {
+	color: #0181E3;
+}
+
+a:hover {
+	color: #3A9EEB;
+}
+
+a:visited {
+	color: #62A8F0;
+}
+
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #525252;
+	font-size: 2.462em;
+	letter-spacing: -0.03em;
+	line-height: 1.19em;
+	margin-bottom: 15px;
+}
+
+h2 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #2C2C2C;
+	font-size: 1.286em;
+	line-height: 1.056em;
+	padding: 9px 0 10px;
+}
+
+#header {
+	font-size: 0.786em;
+	font-weight: bold;
+	line-height: 47px;
+	margin: 0 auto 5px;
+	overflow: hidden;
+	padding: 20px 0 0;
+	width: 80%;
+}
+
+#content {
+	margin: 0 auto 5px;
+	overflow: hidden;
+	width: 80%;
+}
+
+#footer fieldset,#header fieldset {
+	display: inline;
+	line-height: 1em;
+	vertical-align: middle;
+}
+
+#skypeLogo {
+	text-decoration: none;
+}
+
+#skypeLogo img {
+	display: inline;
+	float: left;
+	border: none;
+	margin: 0 10px 0 0;
+}
+
+#tickets {
+	float: right;
+	text-align: center;
+}
+
+#headerNavigation {
+	color: #AFB4B4;
+	float: right;
+	text-align: right;
+	width: 85%;
+}
+
+#headerNavigation a {
+	color: #00AFF0;
+	margin: 0 4px;
+	text-decoration: none;
+}
+
+#headerNavigation a:hover {
+	text-decoration: underline;
+}
+
+#footer {
+	background: white url(bottom_gradient.png) repeat-x scroll left top;
+	clear: both;
+	color: #AFB4B4;
+	font-size: 0.786em;
+	height: 75px;
+	margin: 60px 0 0;
+	padding: 14px;
+}
+
+#footer a {
+	color: #636363;
+	margin: 0 4px;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #444444;
+	text-decoration: underline;
+}
+
+#footer strong {
+	color: #7FD7F7;
+	margin: 0 4px;
+}
+
+#footerNavigation {
+	float: left;
+	line-height: 26px !important;
+	padding: 0 0 0 20px;
+}
+
+#legalLinks {
+	float: right;
+	line-height: 26px !important;
+	padding: 0 20px 0 0;
+	text-align: right;
+}
+
+#legalLinks span {
+	margin: 0 0 0 4px;
+}
+
+#mainNavigation {
+	background: white url(navigation_blue.png) repeat-x scroll left bottom;
+	border-bottom: 1px solid #7FD7F7;
+	min-height: 31px;
+	height: 31px;
+}
+
+#mainNavigation ul,#subNavigation ul {
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 0 0 100px;
+	width: 50%;
+}
+
+#mainNavigation li {
+	float: left;
+	font-size: 1.143em;
+	font-weight: bold;
+	min-height: 20px;
+	color: #636363;
+	display: block;
+	padding: 8px 10px 4px 8px;
+}
+
+#mainNavigation li.active {
+	background: #7FD7F7 none repeat scroll 0 0;
+	color: white;
+}
