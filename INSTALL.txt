@@ -1,0 +1,36 @@
+--------------------
+1 - Requirements
+--------------------
+To install the Ticketz webapp, the following is required:
+- Computer with an OS (windows/unix/linux) capable of running java
+- Sun Java JRE 1.6 or higher installed
+- Apache Tomcat 6.0 or higher installed
+
+
+--------------------
+2 - Configuration
+--------------------
+To access the Ticketz webapp, you need to add a user with partner role to the
+"tomcat-users.xml" file in "conf" directory of tomcat server.  
+To do that, just edit the file and paste the following lines inside <tomcat-users> tag:
+
+<!-- -------------------------------------------------- -->
+  <role rolename="partner"/>
+  <user username="skype" password="skype" roles="partner"/>
+<!-- -------------------------------------------------- -->
+
+After that, only partners with correct username and password can access the Ticketz webapp.
+
+
+--------------------
+3 - Installation
+--------------------
+To install the Ticketz application, just follow this easy steps:
+- Make sure Tomcat is shutdown before start
+- Copy the "ticketz.war" file to the tomcat "webapps" directory
+- Start up Tomcat server
+- Enter the "webapps/ticketz/db" directory and run the "startdb.sh" script to start the DB server
+
+
+That's it! After this, you are ready to use ticketz webapp, most probably at this link
+http://localhost:8080/ticketz/
